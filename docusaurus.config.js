@@ -88,10 +88,8 @@ const darkCodeTheme = themes.dracula;
 const config = {
   title: `${title}`,
   tagline: `${tagLine}`,
-  url: `https://${workshopName}.github.io`,
-  baseUrl: `/${workshopName}/`,
-  projectName: `${organizationName}.github.io`,
-  organizationName: `${organizationName}`,
+  url: `https://bohyunjung.github.io/`,
+  baseUrl: `/mongodb-search-lab/`,
   trailingSlash: false,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
