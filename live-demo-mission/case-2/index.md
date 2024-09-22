@@ -2,19 +2,10 @@
 
 ## Goal
 
-- Some [documents](/docs/1-full-text-search/2-why-search.mdx) include instructor names in their frontmatter:
-
-> ```yaml
-> ---
-> instructors:
->  - Jane Mongo
->  - Richard D. Bee
-> ---
-> ```
-
-- Add the [`src/components/Instructors`](/src/components/Instructors/index.tsx) component:
-  - Position it right above the footer of each document.
-  - Use it to render the instructor names.
+- Add a Docusaurus admonition at the bottom of each document.
+  - Include a bold message: "Check out the MongoDB Community!"
+  - Provide a link: <https://www.mongodb.com/community/forums/>
+- Place the admonition under the document footer.
 
 Start by swizzling `DocItem/Footer` in `@docusaurus/theme-classic`.
 
